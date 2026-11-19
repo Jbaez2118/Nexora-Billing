@@ -1,0 +1,67 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+.venv-py313-backup/
+venv/
+env/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ML sensitive data and temporary artifacts
+datasets/raw/
+datasets/private/
+mlruns/
+*.joblib
+*.pkl
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Nexora Intelligence - sensitive datasets
+intelligence/datasets/raw/
+intelligence/datasets/private/
+
+# ML temporary artifacts
+intelligence/mlruns/
+intelligence/artifacts/
+*.bak
+*.bak[0-9]*
+*.bak1
+node_modules/
+*.env.local
+.expo/
+.claude/
